@@ -127,7 +127,8 @@ public class MobHandler {
 		return l;
 	}
 	
-	public static LivingEntity setColor(LivingEntity l, EpicMobs em)
+	@SuppressWarnings("deprecation")
+    public static LivingEntity setColor(LivingEntity l, EpicMobs em)
 	{
 		if(l instanceof Wolf)
 		{

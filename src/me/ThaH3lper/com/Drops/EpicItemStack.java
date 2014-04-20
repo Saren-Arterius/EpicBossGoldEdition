@@ -18,7 +18,8 @@ public class EpicItemStack {
 		this.chance = chance;
 	}
 	
-	public EpicItemStack(String s)
+	@SuppressWarnings("deprecation")
+    public EpicItemStack(String s)
 	{
 		String[] part = s.split(" ");
 		this.chance = Float.parseFloat(part[1]);
